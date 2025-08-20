@@ -1,24 +1,238 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 6</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 6 Kínder</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¡Acción y Reacción!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Entender la relación causa-efecto simple ("Si presiono el botón, suena la música").</li>
+<li>Explorar diferentes tipos de "entradas" (botones, sensores).</li>
+<li>Practicar la predicción ("¿Qué crees que pasará?").</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Demostración de la conexión causa-efecto al activar dispositivos.</li>
+<li>Formulación de predicciones sobre resultados de acciones.</li>
+<li>Comunicación verbal de una relación simple de "si... entonces...".</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Juguetes interactivos con botones (ej. libro con sonidos, robot simple).</li>
+<li>Dart The Chameleon</li>
+<li>Papel y marcador negro.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Activando Nuestros Circuitos de Alegría! ⏰ 5 min</h2>
+<p>Un momento para despertar el cuerpo y la mente, ¡y descubrir que nuestras acciones tienen reacciones!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Ritmo de Bienvenida (Proyectar Diapositiva 1) ⏰ 3 min</h3>
+<p>Dirige la canción "Si estás feliz y lo sabes..." animando a los niños a realizar las acciones (aplaudir, zapatear, etc.). Asegúrate de que todos participen activamente, imitando los movimientos y cantando. Modula tu voz para mantener la energía alta y la atención de los pequeños.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, mis pequeños ingenieros de la diversión! ¡Qué emoción tenerlos listos para otra misión increíble! Hoy vamos a descubrir algo súper divertido: ¡que cada acción tiene una reacción! ¿Están listos para mover el esqueleto? ¡Vamos a cantar 'Si estás feliz y lo sabes... y aplaudes así'! (Cantan y aplauden). ¡Bravo! ¡Lo hicieron genial! ¿Sintieron cómo el aplauso hizo un sonido? ¡Qué bien!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Conectando Acciones con Reacciones (Proyectar Diapositiva 2) ⏰ 2 min</h3>
+<p>Después de cada verso de la canción, haz una pausa y pregunta a los niños qué pasó después de su acción. Refuerza la idea de que una acción lleva a una reacción, utilizando ejemplos concretos de la canción y la frase "Si... entonces...". Anima a los niños a vocalizar lo que sucedió.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Fantástico! A ver, cuando dijimos "Si estás feliz y lo sabes... y aplaudes así", ¿qué pasó cuando aplaudieron? (Espera respuestas como "Sonó un aplauso", "Hicimos ruido"). ¡Exacto! ¡Si aplaudimos, entonces suena un aplauso! ¿Vieron? Nuestra acción de aplaudir causó un sonido. ¡Y si zapateamos? (Zapatean). ¡Claro, se oye el 'tac-tac'! ¡Eso es! ¡Nuestras acciones hacen que pasen cosas! ¡Qué interesante! Hoy vamos a ser detectives de acciones y reacciones. ¡Vamos a ver qué descubrimos!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Misterio del Botón Mágico ⏰ 10 min</h2>
+<p>Descubrimos que al presionar algo, ¡pueden ocurrir cosas asombrosas!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Despertando la Curiosidad y Predicción (Proyectar Diapositiva 3) ⏰ 5 min</h3>
+<p>Muestra un juguete interactivo con un botón. Sostén el juguete de manera que el botón sea visible pero no lo presiones aún. Pregunta a los niños: "¿Qué creen que pasará si presiono este botón?". Anima a que todos los niños hagan sus predicciones y expliquen por qué piensan eso. Guíalos para que piensen en posibles sonidos, luces o movimientos. Permite que varios niños compartan sus ideas.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, equipo de exploradores! Miren lo que encontré... ¡un juguete muy especial! Pero... ¡tiene un botón misterioso! ¿Qué creen que pasará si yo... (señala el botón) ...presiono aquí? ¡A ver, piensen como detectives! ¿Alguien tiene una idea? (Espera predicciones y da tiempo para que varios niños participen). ¡Wow, qué buenas ideas! Algunos creen que sonará música, otros que se encenderá una luz, ¡y algunos que se moverá! ¡Excelente! ¡Me encanta cómo están usando su imaginación! ¡Están listos para ser grandes científicos!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Comprobando y Entendiendo la Conexión (Proyectar Diapositiva 4) ⏰ 5 min</h3>
+<p>Presiona el botón del juguete para comprobar las predicciones. Reacciona con sorpresa y alegría a la respuesta del juguete (ej., si suena música, puedes bailar un poco; si se enciende una luz, puedes señalarla con asombro). Luego, repite el proceso con otro botón o juguete interactivo si el tiempo lo permite. Introduce explícitamente las palabras "Si..." y "entonces..." para describir la relación observada, reforzando que la acción (presionar) causa el efecto (sonido, luz, movimiento).</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Vamos a descubrirlo juntos! (Presiona el botón, reacciona con sorpresa y alegría a la respuesta). ¡Increíble! ¡Pasó algo! ¡Esto es como magia! ¿Quién adivinó lo que iba a pasar? ¡Muy bien! Miren, si yo presiono el botón... entonces... ¡suena la música! ¿Vieron? Mi acción de presionar el botón hizo que la música sonara. ¡Eso es causa y efecto! Ahora, miren este otro juguete. Tiene esta palanca. Si yo muevo esta palanca... entonces... ¡se enciende la luz! ¡Lo descubrimos! Siempre que hacemos algo, ¡pasa otra cosa! ¡Qué emoción! ¡Hoy aprenderemos a encontrar muchas causas y muchos efectos!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: Estaciones de Exploración: ¡Acción y Reacción! ⏰ 20 min</h2>
+<p>Nos convertimos en científicos que experimentan y descubren qué sucede cuando interactuamos con objetos.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Preparando Nuestras Estaciones y Grupos (Proyectar Diapositiva 5) ⏰ 5 min</h3>
+<p>Explica claramente las dos estaciones que los niños van a explorar. Divide a los niños en grupos pequeños (2-3 niños por grupo, dependiendo del tamaño de la clase), asignando un nombre divertido a cada grupo. Explica cómo rotarán y cómo el reloj de arena marcará el tiempo para la transición entre estaciones, haciendo la rotación visual y ordenada. Asegúrate de que entiendan las reglas de cada estación y la importancia de compartir los materiales.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Prepárense, intrépidos investigadores! ¡Nuestra misión nos lleva a dos estaciones de descubrimiento súper divertidas! Los voy a dividir en grupos pequeños, como equipos de exploradores. ¡En la Estación 1, tendremos juguetes con botones secretos! Aquí podrán presionar, girar, empujar y tirar para ver qué pasa. Recuerden, ¡si aprietan el botón, algo mágico pasará! Y en la Estación 2, ¡conoceremos a Dart, nuestro camaleón robot! Dart es un amigo muy especial, ¡si dibujan un camino oscuro con el marcador, entonces Dart lo seguirá! ¿Listos para rotar? ¡Vamos a usar nuestro reloj de arena mágico para saber cuándo es hora de cambiar de estación! Cuando la arena se acabe, ¡es hora de movernos a la siguiente aventura! ¡Será como una cuenta regresiva para la diversión!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Exploración en la Primera Estación (Proyectar Diapositiva 6) ⏰ 10 min</h3>
+<p>Dirige a los grupos a sus primeras estaciones. Circula entre los grupos, observando y guiando la exploración. Anima a los niños a probar diferentes acciones con los materiales y a observar cuidadosamente las reacciones. Haz preguntas abiertas para estimular su pensamiento sobre causa y efecto, como: "¿Qué pasa si...?", "¿Y si haces esto...?", "¿Por qué crees que pasó eso?". Asegúrate de que todos tengan la oportunidad de interactuar con los materiales y que se fomente la colaboración dentro del grupo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Guau, qué bien están explorando, pequeños genios! ¡En la estación de los juguetes, veo que están descubriendo un montón de cosas! ¡Miren, si presionan ese botón, entonces suena una canción! ¡Qué divertido! ¿Y si lo sueltan? ¡Ya no suena! ¡Lo están haciendo increíble! ¡Recuerden probar diferentes botones y palancas! ¿Qué pasa si le das cuerda a este juguete? ¡Ah, se mueve! ¡Fantástico! ¡Sigan experimentando! ¡No dejen de preguntarse qué pasará si hacen algo!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: Rotación y Exploración en la Segunda Estación (Proyectar Diapositiva 7) ⏰ 5 min</h3>
+<p>Cuando el reloj de arena indique el final del tiempo en la primera estación, anuncia la transición de manera lúdica y clara. Guía a los grupos para que roten a la segunda estación. Continúa circulando y facilitando la exploración, haciendo preguntas que refuercen la comprensión de causa y efecto. Para la estación de Dart, ayúdalos a dibujar líneas claras y observa cómo reacciona Dart. Anímales a probar líneas curvas, rectas, y a ver cómo Dart sigue cada una, reforzando la idea de que su dibujo es la causa y el movimiento de Dart es el efecto.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Ding, dong! ¡El reloj de arena nos dice que es hora de cambiar! ¡Ahora vamos a la Estación 2, donde está nuestro amigo Dart, el camaleón robot! ¡Miren cómo sigue el camino que dibujan! ¡Si dibujan una curva, entonces Dart gira! ¡Si dibujan una línea recta, entonces Dart va derechito! ¡Qué listos son! ¿Qué otra cosa pueden hacer para que Dart reaccione? ¿Y si dibujan una línea muy larga? ¿O una muy corta? ¡Sigan experimentando, mis valientes! ¡Quiero ver sus caminos más creativos y cómo Dart los sigue! ¡Recuerden que su dibujo es lo que hace que Dart se mueva!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: Compartiendo Nuestros Descubrimientos ⏰ 5 min</h2>
+<p>Compartimos las asombrosas cosas que aprendimos sobre cómo nuestras acciones provocan reacciones.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Círculo de Compartir y Ejemplos (Proyectar Diapositiva 8) ⏰ 3 min</h3>
+<p>Reúne a los niños en un círculo en el suelo. Pide a algunos voluntarios que compartan lo que descubrieron en las estaciones. Anímalos a usar la estructura "Si... entonces..." para describir sus hallazgos, proporcionando ejemplos si es necesario. Por ejemplo: "Si dibujé una línea, entonces Dart la siguió" o "Si presioné el botón del perro, entonces ladró". Escucha activamente, celebra cada contribución y haz preguntas de seguimiento para profundizar su comprensión.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, equipo de científicos! ¡Es hora de reunirnos en nuestro círculo mágico para compartir nuestros increíbles descubrimientos! ¡Me encantó verlos explorar! ¿Quién quiere contarnos algo sorprendente que haya pasado en las estaciones? ¡A ver, Manolito! ¿Qué descubriste con el juguete del patito? ¡Cuéntanos qué hiciste y qué pasó! (Espera su respuesta). ¡Ah, si aprietas la panza del pato, entonces... ¡cuac cuac! ¡Excelente, Manolito! ¡Lo explicaste perfecto! ¿Y tú, Sofía? ¿Qué hizo Dart con tu camino? ¡Si dibujas un círculo, entonces Dart da vueltas! ¡Fantástico, Sofía! ¡Lo hicieron de maravilla! ¿Alguien más quiere compartir un 'Si... entonces...'? ¡No hay respuestas incorrectas, solo descubrimientos!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Misión Cumplida y Celebración! (Proyectar Diapositiva 9) ⏰ 2 min</h3>
+<p>Felicita a los niños por sus descubrimientos y su participación. Refuerza el concepto clave de causa y efecto de una manera simple y memorable, conectándolo con sus propias acciones diarias. Concluye la sesión con entusiasmo y anticipación para la próxima aventura. Asegúrate de que se sientan orgullosos de su aprendizaje y del esfuerzo que pusieron.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡MISIÓN CUMPLIDA, SÚPER EQUIPO DE CAUSA Y EFECTO! ¡Hoy aprendimos que nuestras acciones, por pequeñas que sean, ¡siempre provocan algo! ¡Si jugamos, entonces nos divertimos! ¡Si pensamos, entonces descubrimos cosas nuevas! ¡Son unos campeones de la curiosidad y unos ingenieros muy listos! ¡Estoy tan orgulloso de todos ustedes! ¡Un aplauso enorme para todos por su increíble trabajo! ¡Nos vemos en la próxima aventura de TECH4GOOD AI First, donde seguiremos explorando el mundo de las máquinas y sus 'sentidos'! ¡Hasta la próxima, pequeños genios!</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
